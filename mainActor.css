@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century Gothic;
+	
+}
+.img{
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)) , url(landscape-5356009_960_720.webp); 
+	background-position: center;  
+	height: 40em;/*to make the hight all the page*/
+	background-repeat: no-repeat;/*dont repeat the image*/
+    background-color: #003333;
+    background-size: 100%;
+    
+}
+h1,b b{
+	color:#ffffe6 ;
+	text-align: center;
+	background-color: #cc80ff;
+	
+}
+
+
+#time{
+	color: #b3ffe6;
+	font-size: 14px;
+	text-align: center;
+}
+.btn{
+	float: left 43px;
+}
+.styleInput{
+	background-color: white;/*the back to the search*/
+    width: 100%;/*width of the line*/
+    font-size: 18px;
+    padding: 9px 15px 9px 30px;/*the perfect size to the search button*/
+    margin-bottom: 4px;/*the area under the search */
+
+}
+/*control the buttons under the page */
+.button31{
+    position: absolute;/*to control the page*/
+    left:10%;/*come left with 10% */
+    transform: translate(-50%,-90%)/*the area of X-ray and Y-ray*/
+}
+.button32{
+    border: 1px solid #fff;/*the border that cover the button and it color */
+    padding: 10px  30px;/* the hight and the width of the squer that cover the button*/
+    color: #fff;/*color the word*/
+    font-weight: bold;/* weight of the word in the button*/
+    transition: 0.6s ease;/** terned white slwoly*/
+}
+.button32:hover{
+    background-color: #fff;/* color of the backgrond of the button*/
+    color: #000;/*color of the word in the button after putting the mouse on it*/
+}
+
+.button33{
+    position: absolute;/*to control the page*/
+    right:5%;/*come right with 10% */
+    transform: translate(-50%,-90%)/*the area of X-ray and Y-ray*/
+}
+.button34{
+    border: 1px solid #fff;/*the border that cover the button and it color */
+    padding: 10px  30px;/* the hight and the width of the squer that cover the button*/
+    color: #fff;/*color the word*/
+    font-weight: bold;/* weight of the word in the button*/
+    transition: 0.6s ease;/** terned white slwoly*/
+}
+/*hover : selector is used to select elements when you mouse over them.*/
+.button34:hover{
+    background-color: #ff9999;/* color of the backgrond of the button*/
+    color: #000;/*color of the word in the button after putting the mouse on it*/
+}
+
+.back1{
+
+    position: absolute;/*to control the page*/
+    left:25%;/*come right with 10% */
+    transform: translate(-50%,-90%)/*the area of X-ray and Y-ray*/
+}
+.back2{
+	position: absolute;/*to control the page*/
+    right:25%;/*come right with 10% */
+    transform: translate(-50%,-90%)/*the area of X-ray and Y-ray*/
+    
+}
+.color{
+	color: white;
+    font-size: 18px;
+}
+.about{
+	position: absolute;/*to control the page*/
+    right:25%;/*come right with 10% */
+    transform: translate(-50%,-90%)/*the area of X-ray and Y-ray*/
+    margin-bottom:2px;
+    color: white;
+    font-size: 18px;
+
+}
+.Contect{
+	position: absolute;/*to control the page*/
+    left:25%;/*come right with 10% */
+    transform: translate(-50%,-90%)/*the area of X-ray and Y-ray*/
+    margin-bottom:2px;
+    color: white;
+    font-size: 18px;
+}
+
+

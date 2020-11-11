@@ -1,0 +1,155 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+    background-color: #884dff ;
+
+}
+
+h1{
+    text-align: center;
+    color:  #ffffff;
+    background-color: #cc99ff;
+}
+#panel, #flip {
+  padding: 8px;/*مساحة الحته اللي مكتوب عليها دوس للفيديوز*/
+  text-align: center;
+  border: solid 0.5px ;
+}
+#flip{
+    background-color:#e5eecc;
+}
+
+#panel {
+  
+  display: none;
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)) , url(ba.jpg); 
+  background-position: center;     
+}
+
+.btn{
+    background-color:#e5eecc;
+    size: 4px; 
+    color: black;
+    font-size: 15px;
+
+}
+/*the css of table sarch*/
+/*The border-collapse property sets whether
+ table borders should collapse into a single border or be separated as in standard HTML.*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 3px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background-color: #f2e6ff;
+}
+
+.button{
+    position: absolute;/*to control the page*/
+    left:10%;/*come left with 10% */
+    transform: translate(-50%,-90%)/*the area of X-ray and Y-ray*/
+}
+
+.button2{
+    border: 1px solid #fff;/*the border that cover the button and it color */
+    padding: 10px  30px;/* the hight and the width of the squer that cover the button*/
+    color: #fff;/*color the word*/
+    font-weight: bold;/* weight of the word in the button*/
+    transition: 0.6s ease;/** terned white slwoly*/
+}
+.button2:hover{
+    background-color:  #b3ffff;/* color of the backgrond of the button*/
+    color: #000;/*color of the word in the button after putting the mouse on it*/
+}
+
+.button22{
+    position: absolute;/*to control the page*/
+    right:5%;/*come right with 10% */
+    transform: translate(-50%,-90%)/*the area of X-ray and Y-ray*/
+}
+.button23{
+    border: 1px solid #fff;/*the border that cover the button and it color */
+    padding: 10px  30px;/* the hight and the width of the squer that cover the button*/
+    color: #fff;/*color the word*/
+    font-weight: bold;/* weight of the word in the button*/
+    transition: 0.6s ease;/** terned white slwoly*/
+}
+/*hover : selector is used to select elements when you mouse over them.*/
+.button23:hover{
+    background-color: #ff9999;/* color of the backgrond of the button*/
+    color: #000;/*color of the word in the button after putting the mouse on it*/
+}
+
+.back1{
+
+    position: absolute;/*to control the page*/
+    left:25%;/*come right with 10% */
+    transform: translate(-50%,-90%)/*the area of X-ray and Y-ray*/
+    
+    
+}
+.homebtn{
+    position: absolute;/*to control the page*/
+    right:25%;/*come right with 10% */
+    transform: translate(-50%,-90%)/*the area of X-ray and Y-ray*/
+    
+
+}
+
+.color{
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+/*the css to the table*/
+#myInput {
+  background-color: white;/*the back to the search*/
+  width: 100%;/*width of the line*/
+  font-size: 18px;
+  padding: 12px 20px 12px 40px;/*the perfect size to the search button*/
+  margin-bottom: 10px;/*the area under the search */
+}
+/*control the table all*/
+#myTable {
+  width: 100%;
+  border: 1px  #7700e6;/*without solid*/
+  font-size: 18px;
+}
+/*control the size of text*/
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 14px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #f3e6ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

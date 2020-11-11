@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #000;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)) , url(maxresdefault1.jpg); 
+	background-position: center;    
+}
+.carousel{
+    height: 510px;/**المسافة من اول الصفحة*/
+    perspective: 700px;
+    
+}
+.carousel carousel-item{
+    width: 500px;
+    
+}
+.carousel .carousel-item img
+{
+  width: 100%;  
+}
+
+.carousel .carousel-item h5{
+    margin: 0;/*المسافة بين الصورة و ال box*/
+    padding: 0;
+    background: #fff;
+    color: #000;
+    box-sizing: border-box;
+    padding: 8px 5px;/*5px to the words in the box hoe far and the 8px to the height*/
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+      
+}
+
+h2{
+    color: #e6e6ff;
+    text-align: center;
+}
+h6{
+    color:  #e6fff2;
+    text-align: center;
+    font-size: 19px;
+}
+
+
+.button{
+    position: absolute;/*to control the page*/
+    left:10%;/*come left with 10% */
+    transform: translate(-50%,-90%)/*the area of X-ray and Y-ray*/
+}
+
+.button2{
+    border: 1px solid #fff;/*the border that cover the button and it color */
+    padding: 10px  30px;/* the hight and the width of the squer that cover the button*/
+    color: #fff;/*color the word*/
+    font-weight: bold;/* weight of the word in the button*/
+    transition: 0.6s ease;/** terned white slwoly*/
+}
+.button2:hover{
+    background-color: #fff;/* color of the backgrond of the button*/
+    color: #000;/*color of the word in the button after putting the mouse on it*/
+}
+
+.button22{
+    position: absolute;/*to control the page*/
+    right:5%;/*come right with 10% */
+    transform: translate(-50%,-90%)/*the area of X-ray and Y-ray*/
+}
+.button23{
+    border: 1px solid #fff;/*the border that cover the button and it color */
+    padding: 10px  30px;/* the hight and the width of the squer that cover the button*/
+    color: #fff;/*color the word*/
+    font-weight: bold;/* weight of the word in the button*/
+    transition: 0.6s ease;/** terned white slwoly*/
+}
+/*hover : selector is used to select elements when you mouse over them.*/
+.button23:hover{
+    background-color: #ff9999;/* color of the backgrond of the button*/
+    color: #000;/*color of the word in the button after putting the mouse on it*/
+}
+
+
+
+
+
+
+

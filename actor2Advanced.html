@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LEE JONG SUK page2</title>
+	<!-- Required meta tags -->
+    <!-- Setting the view port to make your website look good on all devices:-->
+    <!-- view port is the user's visible area of a web page. It varies with the device -
+    it will be smaller on a mobile phone than on a computer screen.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+
+    <!--STYLE SHEET CSS-->
+    <!--link css sheet (document)-->
+    <link rel="stylesheet" href="actor2Advanced.css">
+    <!-- include  important script files with jq function to create an animation-->
+    <script src="jquery.min.js"></script>
+    <script src="materialize.min.js"></script>
+
+     <!--STYLE SHEET JS AND JQ-->
+
+    <script language="javascript" type="text/javascript">
+    	$(document).ready(function(){
+    		$("#flip").click(function(){
+    			$("#panel").slideToggle("slow");
+
+    		});//end click function
+    		$("#p1").click(function(){
+    			alert("WE WILL MISS YOU you leaving");
+                    
+                
+            });
+        
+    	});//end jq 
+    	
+    	//now with java script to make search
+        function myFunction() {
+          var input, filter, table, tr, td, i, txtValue;//declear vars
+          //get information from html by id 
+          input = document.getElementById("myInput");
+          filter = input.value.toUpperCase();//make the litter capital
+  
+          table = document.getElementById("myTable");
+          tr = table.getElementsByTagName("tr");
+          //td is not rows
+          for (i = 0; i < tr.length; i++) {
+          	//Change tr[i].getElementsByTagName('td')[0] to [1] if i want to search for "operator" (index 1) instead of "ditals" (index 0).
+            td = tr[i].getElementsByTagName("td")[0];//0 to operator 1 to ditals
+            if (td) {
+              txtValue = td.textContent || td.innerText;
+              //compere the value that user input
+              if (txtValue.toUpperCase().indexOf(filter) == 0) {
+                tr[i].style.display = "";
+              }//end if 2 
+              else {
+                tr[i].style.display = "none";
+              }//end else
+            }//end if 1       
+          }//end for
+        }//end function   	
+
+    </script>
+</head>
+<body>
+	
+	<h1 >Welcome in page2 &#128151; LEE JONG SUK</h1>
+	<div id="flip"><!--START DIV 3 with jq-->
+    	click to Display Video /s 
+    </div><!--end DIV 3 with jq-->
+    <div id="panel"><!--START DIV 4 with jq-->         
+    	<video  width="640" height="355" autoplay >
+    		<source src="W - Official Trailer _ Lee Jong Suk _ Han Hyo Joo(480P).mp4" type= "video/mp4">	
+        </video> <br> <br>
+        <video  width="640" height="355" autoplay >
+    		<source src="170910 이종석 팬미팅 New Face 댄스 직캠(360P).mp4" type= "video/mp4">	
+        </video> <br><br>
+        <video  width="640" height="355" autoplay >
+    		<source src="While You Were Sleeping - EP12 _ Lee Jong Suk_s Ae(480P).mp4" type= "video/mp4">	
+        </video>			
+        
+    </div><!--end DIV 4 with jq-->
+    <br>
+    <!--search with jq -->
+    <h1> AND now With  table to make information Easier</h1>
+    
+    <br>
+    <!--the search -->
+     <!--note that placehorder is the words that display to user-->
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for ditals Easier.." title="Type in a name">
+
+<table id="myTable"><!--open table-->
+  <tr class="header"><!--open the header-->
+    <th style="width:40%;">Operator</th><!--the width of the index0  -->
+    <th style="width:60%;">Ditals</th><!--the width of the index1  -->
+  </tr><!--close the header-->
+  <tr>
+    <td>Name</td>
+    <td>LEE JONG SUK</td>
+  </tr>
+  <tr>
+    <td>Job</td>
+    <td>Actor and Model</td>
+  </tr>
+  <tr>
+    <td>Date of birth</td>
+    <td>14 / 9 /1989</td>
+  </tr>
+  <tr>
+    <td>City & Nationality</td>
+    <td>South Korea</td>
+  </tr>
+  <tr>
+    <td>Sign</td>
+    <td>Virgo</td>
+  </tr>
+  <tr>
+    <td>Education</td>
+    <td>majored in Professional Motion Pictures and Art at (Konkuk University)</td>
+  </tr>
+  <tr>
+    <td>North/South</td>
+    <td>South</td>
+  </tr>
+  <tr>
+    <td>Awards</td>
+    <td>Top Excellence Award,Grand Prize,Top 10 Stars</td>
+  </tr>
+  <tr>
+    <td>His kdrama</td>
+    <td><a href="file:///E:/Html/lee%20jong%20suk/Webpro1.htm#C4" >click to Kdrama</a></td>
+  </tr>
+</table> <!--close table  -->   
+    
+    <br><br>
+    <!--the buttons under the page -->
+    <div class="button"><!-- START THE DIV OF THE BUTTON IN THE END OF THE PAGE -->
+        <a href="file:///E:/Html/lee%20jong%20suk/mainActor.html" class="button2">Page3 (Game)</a>
+
+            
+    </div><!--END THE DIV OF THE BUTTON to back to sign in page with naglaa-->
+
+        
+    <div class="button22" id="p1"><!-- START THE DIV OF THE BUTTON IN THE END OF the PAGE -->
+        <a href="#"     class="button23">Sign Out</a>
+
+            
+    </div><!--END THE DIV OF THE BUTTON-->
+    <br>
+    <a href="file:///E:/Html/lee%20jong%20suk/Webpro1.htm" class="back1">
+    	<p class="color">back to page1</p></a>
+    <a href="file:///E:/Html/lee%20jong%20suk/slide%20up/index.html" class="homebtn">
+    	<p class="color">HOME PAGE</p></a>
+
+    <br><br>	
+    	
+</body>
+</html>

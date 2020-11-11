@@ -1,0 +1,152 @@
+<!--html doucment-->
+<html>
+<head>
+	<title>GAME lee jong suk</title>
+	<!-- Required meta tags -->
+    <!-- Setting the view port to make your website look good on all devices:-->
+    <!-- view port is the user's visible area of a web page. It varies with the device -
+    it will be smaller on a mobile phone than on a computer screen.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!--link css sheet (document)-->
+    <link rel="stylesheet" href="mainActor.css">
+    <!-- include  important script files with jq function to create an animation-->
+    <script src="jquery-3.4.1.js"></script>
+    
+    
+
+    <!--script-->
+    <script language="javascript" type="text/javascript">
+    	function timefuncton(){
+    		var myDate = new Date() ;
+    		var myString = myDate.toLocaleString();
+    		
+    		(document).getElementById('time').innerHTML=myString;
+    	}
+    	//the game
+		
+    	
+    	var a ,b ,c ,answer ;
+		var nam ="lee jong suk";
+		var countr = "south korea";
+		var ag =31;
+    	a = prompt ("enter the name of the Actor");
+		console.log(a);
+
+    	b = prompt ("enter the country");
+    	console.log(b);
+		
+
+    	c = prompt ("enter the age");
+		console.log(c);
+		
+		
+    	cheak(answer);
+
+    	function cheak(){
+			
+			if (a.indexOf(nam) == 0 && b.indexOf(countr) == 0 && c.indexOf(ag) == 0) {
+                //code
+				console.log('the name and country and age is true');
+				return (answer=true);
+				
+            } else{
+				console.log('the name or country or age is fulse');
+				return (answer="fulse,your answer is not true / TRY again");
+			}
+					
+		}//end cheak
+		
+         
+		function cfunction() {
+            //code
+			if (answer === true) {
+                //code
+				alert(answer);
+            }else{
+				alert(answer);
+			}
+			
+        }//end function 
+
+
+         // jq 
+        //control the out button
+        $(document).ready(function() {
+        	// body...
+        	$("#out2").click(function(){
+        		alert("WE WILL MISS YOU you leaving");
+                   
+                
+            });
+
+        }); //end jq   
+    		
+
+
+
+     		
+    </script>
+    	
+    	
+   
+
+</head>
+<body class="img">
+	
+		<div><!--start my div-->
+			<h1>little games to text your information about LEE JONG SUK</h1><br>
+			<button class="btn" 
+			  onclick="timefuncton();">
+             Click here to display Date and Time </button>
+             <p id="time"></p>
+			
+		</div><!--end my div-->
+
+		<h2 style="color: white;">We  really happy because you arived to page 3 &#128525; </h2><br>
+
+		<!-- THE LITTEL GAME-->
+		<h2 style="color:  #99e6ff;">the game is "enter your information about the actor &#128525;"</h2><br>
+		<h2  style="color: #f3e6ff;"> the result :</h2>
+
+		<!--button to show the result-->
+		<button type="button" onclick=" cfunction();">CLICK TO SHOW THE RESULT</button>
+
+
+		<h2  style="color: #ff9980;"> if you didnt know the answer  please cheak <br> 
+		the previos pages  and try again	
+		</h2>
+		<br>
+		<h2  style="color:  #ffff80"> and if you answer all questions  than you are intelegent <br> WE HOPE THAT OUR INFORMATION MAKES YOU KNOW ABOUT YOUR Actor
+		</h2>
+
+        <br><br><br>
+		<!--the buttons under the page -->
+        <div class="button31"><!-- START THE DIV OF THE BUTTON IN THE END OF THE PAGE -->
+            <a href="file:///E:/Html/lee%20jong%20suk/slide%20up/index.html"  class="button32">HOME PAGE</a>          
+        </div><!--END THE DIV OF THE BUTTON to back to home page -->
+
+        <a href="file:///E:/Html/lee%20jong%20suk/Webpro1.htm" class="back1">
+    	<p class="color">back to page1</p></a>
+
+    	<a href="file:///E:/Html/lee%20jong%20suk/actor2Advanced.html" class="back2">
+    	<p class="color">back to page2</p></a>
+
+
+
+        
+        <div class="button33" id="out2"><!-- START THE DIV OF THE BUTTON IN THE END OF THE PAGE -->
+            <a href="#"     class="button34">Sign Out</a>
+
+            
+        </div><!--END THE DIV OF THE BUTTON-->
+        <br>
+        <a class="about" href="file:///C:/Users/ACER/Desktop/Yara/forstart.html">About us</a>
+        <a class="Contect" href="file:///C:/Users/ACER/Desktop/Norhan/contact%20us.html">Contect us</a>
+        
+
+
+	
+
+</body>
+</html>
